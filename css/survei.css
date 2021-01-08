@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: salmon;
+    background-image: url(../img/pixabay.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: 2px;
+}
+
+#page {
+    width: 100%;
+    padding: 20px;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    background-color: rgba(252, 128, 26, 0.87);
+}
+
+/* Bagian judul */
+
+header {
+    text-align: center;
+    border-bottom: 5px solid brown;
+    margin-bottom: 20px;
+}
+
+header #title {
+    font-weight: bolder;
+}
+
+header #description {
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Bagian survei */
+
+.form-all {
+    margin: 20px 10px;
+}
+
+#name {
+    border-radius: 4px;
+    border: 0;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    max-width: 530px;
+}
+
+#email {
+    border-radius: 4px;
+    border: 0;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    max-width: 530px;
+}
+
+#number {
+    border-radius: 4px;
+    border: 0;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    max-width: 530px;
+}
+
+#dropdown {
+    border-radius: 4px;
+    border: 0;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    max-width: 540px;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 30px;
+}
+
+.checkbox-label {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 13px;
+}
+
+#comment {
+    width: 100%;
+    max-width: 540px;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 5px;
+}
+
+
+#submit {
+    border-radius: 4px;
+    border: 0;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#submit:hover {
+    background-color: lightblue;
+}

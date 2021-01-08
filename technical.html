@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="in" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Dokumentasi Teknis PHP">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentasi Teknis</title>
+  <link rel="stylesheet" href="css/documentation.css">
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <header id="pembukaan">Dokumentasi PHP</header>
+    <ul>
+      <li><a class="nav-link" href="#pengenalan">Pengenalan</a></li>
+      <li><a class="nav-link" href="#syntax">Syntax</a></li>
+      <li><a class="nav-link" href="#variabel">Variabel</a></li>
+      <li><a class="nav-link" href="#array">Array</a></li>
+      <li><a class="nav-link" href="#function">Function</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="pengenalan">
+      <header><h1>Pengenalan</h1></header>
+      <p>
+        PHP merupakan bahasa pemograman yang digunakan untuk membuat aplikasi
+        berbasis website. Oleh karena itu, PHP dapat dijalankan mengggunakan
+        browser.
+      </p>
+      <p>
+        PHP setidaknya digunakan karena sifatnya dinamis dan interaktif.
+        Dinamis berarti bisa berganti konten sesuai kondisi tertentu.
+        Sedangkan interaktif berarti website tersebut bisa memberikan feedback
+        bagi user.
+      </p>
+    </section>
+
+    <section class="main-section" id="syntax">
+      <header><h1>Syntax</h1></header>
+      <p>
+        Sebaiknya mengenal syntax-syntax dasar yang dikenal di lingkungan PHP.
+        Menulis komentar dalam PHP digunakan sebagi catatan pribadi atau pesan
+        untuk programmer lain. Titik koma untuk mengakhiri setiap menulis
+        baris perintah dalam PHP kecuali baris yang berfungsi membuat blok.
+        Simbol $ digunakan untuk mendeklarasikan variabel dan harus ditempat
+        di depan setiap tipe variabel.
+        <p>
+          Berikut ini merupakan aturan-aturan syntax dasar dalam menulis dasar
+          PHP:
+        </p>
+        <ul>
+          <li>Menulis komentar satu baris dan lebih dari satu baris</li>
+          <li>Simbol $ </li>
+          <li>Titik koma</li>
+          <p>Contoh:</p>
+          <code><pre>
+    // ini untuk satu baris
+
+    */
+      ini untuk lebih dari satu baris
+      ini untuk lebih dari satu baris
+    */
+
+  $angka = 3;   //Simbol $ sebagai deklarasi setiap awal Variabel
+  $string = "huruf";    //Titik koma selalu diakhir perintah.
+  $array = array("Ford", "Hyundai", "Toyota");
+          </pre></code>
+        </ul>
+    </section>
+
+    <section class="main-section" id="variabel">
+      <header><h1>Variabel</h1></header>
+      <p>
+        Variabel merupakan memori sementara untuk menyimpan data numerik
+        maupun string. Harus diawali deklarasi simbol $.
+      </p>
+      <p>Sebagai awal ini, ada tiga variabel yaitu:</p>
+      <ul>
+        <li>Numerik</li>
+        <code>$angka = 10;</code>
+        <li>String</li>
+        <code>$huruf = "kucing";</code>
+        <li>Array</li>
+        <code>$array = array("kuntilanak", "gunduruwo", 3)</code>
+      </ul>
+      <p>
+        Variabel bersifat dinamis. Tidak harus mendeklarasikan variabel
+        sebelum mengggunakannya dan tipe variabel dikonversi otomatis sesuai
+        tipe data konteksnya.
+      </p>
+    </section>
+
+    <section class="main-section" id="array">
+      <header><h1>Array</h1></header>
+      <p>
+        Array adalah variabel yang dapat menyimpan beberapa nilai sekaligus.
+      </p>
+      <p>
+        Jika dirangkum, Sebuah variabel array dapat:
+      </p>
+      <ul>
+        <li>
+          Menyimpan banyak nilai dalam bentuk numerik atau string sekaligus.
+        </li>
+        <li>Menyimpan nilai dari variabel array lainnya.</li>
+      </ul>
+      <br>
+      <p>Penulisan beberapa variabel:</p>
+      <code>
+        $organ = "hati";
+        $organ2 = "jantung";
+        #organ3 = "lambung";
+      </code>
+      <p>Bisa disederhanakan dengan variabel array menjadi:</p>
+      <code>$organ = array("hati", "jantung", "lambung");</code>
+    </section>
+
+    <section class="main-section" id="function">
+      <header><h1>Function</h1></header>
+      <p>
+        Function merupakan kumpulan kode program yang dikemas. Tujuan utamanya
+        membantu programmer melakukan tugas yang sama berulang-ulang tanpa
+        harus menulis kode yang sama lagi.
+      </p>
+      <p>
+        Function dapat menghasilkan sebuah nilai. Biasanay disebut
+        <i><b>Return Value</b></i> atau nilai balikan.
+      </p><br>
+      <p>Hasil yang keluar adalah 20</p>
+      <code>
+        $angka = 10 + 10;
+        echo "$angka";
+       
+      </code>
+      
+    </section>
+  </main>
+
+</body>
+
+</html>
