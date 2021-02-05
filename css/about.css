@@ -77,8 +77,12 @@ main {
 img {
     height: 450px;
     margin: 15px;
-    width: 100%;
-    max-width: 460px;
+    width: auto;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
 }
 
 .foot {
@@ -95,7 +99,7 @@ img {
     background-color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     nav h1 {
         font-size: 20px;
     }
@@ -112,5 +116,11 @@ img {
         margin: 0 auto;
         width: 100%;
         max-width: 1000px;
+    }
+
+    img {
+        height: 200px;
+        margin: 15px;
+        width: 200px;
     }
 }
