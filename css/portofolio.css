@@ -127,6 +127,13 @@ div img {
     color: rgb(0, 0, 0);
 }
 
+.info {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: #F65058FF;
+}
+
 .foot {
     font-family: 'Oswald', sans-serif;
     font-family: 'Pangolin', cursive;
